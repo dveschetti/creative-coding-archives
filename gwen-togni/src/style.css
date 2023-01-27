@@ -1,0 +1,139 @@
+/* Default stylesheet and tools */
+body,
+html {
+	background: rgb(255, 255, 255);
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 11px;
+	transition: all 0.2s ease-in-out;
+}
+
+#container {
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+	overflow: auto;
+}
+
+#container>ul {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 10px;
+	align-self: center;
+}
+
+#container>ul>li {
+	list-style: none;
+	width: 220px;
+	height: auto;
+	position: relative;
+}
+
+#container>ul>li.list-item {
+	cursor: pointer;
+}
+
+#container>ul>li.list-item.hide {
+	display: none;
+}
+
+#container>ul>li.list-item>.item {
+	width: 100%;
+	height: 100%;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	transition: all ease-in-out 0.2s;
+	position: relative;
+}
+
+.item {
+	transition: all 700ms ease-in-out 10s;
+	opacity: 0;
+	overflow: auto;
+	pointer-events: none;
+}
+
+.item.show {
+	opacity: 1;	
+}
+
+#container>ul>li.list-item.active {
+	background: rgb(255, 255, 255);
+	color: white;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 999;
+}
+
+#container>ul>li.list-item.active>.item {
+	overflow: hidden;
+}
+
+.buttons {
+	position: absolute;
+	background: none;
+	left: 50px;
+	top: 30px;
+	padding: 10px;
+	margin-left: 10px;
+}
+
+button {
+	width: fit-content;
+	background-color: rgb(255, 255, 255);
+	padding: 20px;
+	border-radius: 50px;
+	color: rgb(0, 0, 255);
+	border-color: rgb(0, 0, 255);
+	border-style: solid;
+}
+
+#search {
+	width: fit-content;
+	background-color: rgb(255, 255, 255);
+	padding: 20px;
+	border-radius: 50px;
+	color: rgb(0, 0, 255);
+	border-color: rgb(0, 0, 255);
+	border-style: solid;
+}
+
+img {
+	max-width: 100%;
+	pointer-events: none;
+	align-items: center;
+}
+
+#container>ul>li.list-item>.item>p {
+	padding: 0;
+	margin: 0;
+}
+
+#container>ul>li.list-item.active>.item>img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+
+canvas {
+	position: fixed;
+	bottom: 10px;
+	left: 10px;
+	transform: scale(0.5);
+	transform-origin: bottom left;
+	z-index: 1111;
+	display: none;
+}
+
+@media (max-width:960px) {
+	#tools {
+		display: block;
+		width: calc(100% - 20px);
+	}
+}
