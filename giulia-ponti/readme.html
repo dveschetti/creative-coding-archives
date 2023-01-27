@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Giulia Ponti – Facescanned </title>
+    <meta charset="utf-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description"
+        content="Repository for the 2022 course archive for SUPSI Bachelor of Arts SUPSI in Visual communication">
+    <meta name="keywords" content="">
+    <meta name="language" content="english">
+    <meta name="web_author" content="Giulia Ponti">
+    <meta name="copyright" content="Giulia Ponti">
+    <link rel="icon" href="src/img/fav.png">
+    <link href="src/readme.css" rel="stylesheet" />
+
+    </style>
+</head>
+
+<body>
+    <!-- <div id="back">
+        <a href="https://github.com/leonardoa/creative-coding-archives/">Back</a>
+    </div> -->
+    <div id="wrapper">
+        <h1>Giulia Ponti<br />
+            Facescanned</h1>
+        <p class="abstract">
+            Archive that collects and catalogs face images of people who decided to take part to the project 
+            by scanning their own faces. No indication was given about the output, leaving total freedom to 
+            the people to position themselves as they preferred. From there, the most interesting method of 
+            cataloging was chosen: direction. Some people look to the right, some look up, some are 
+            positioned frontally, etc. If we move in front of the screen then the photos will always have 
+            their eyes facing us, following us and looking at us all the time. 
+        </p>
+        <ul>
+            <!-- <li><a href="#">Link website</a></li>
+            <li><a href="https://github.com/dveschetti/creative-coding-archives/main/giulia-ponti">Github</a></li> -->
+        </ul>
+        <h1 class="title">Object</h1>
+        <img src="src/img/archive_0.jpg" alt="immagine archivio" />
+
+        <h1 class="title">Behind the project</h1>
+        <p>
+            To reach 200 photos, it was necessary to ask as many people as possible to participate to the project, 
+            spreading the word among friends and family. Along with the scanners, I also received some photos of 
+            people who enjoyed scanning their own faces at home, at friends' house or at work.
+        </p>
+        <div class="images">
+            <img src="src/img/archive_2.jpg" alt="immagine raccolta scanner" />
+            <img src="src/img/archive_3.jpg" alt="immagine raccolta scanner" />
+            <img src="src/img/archive_1.jpg" alt="immagine raccolta scanner" />
+            <img src="src/img/archive_4.jpg" alt="immagine raccolta scanner" />
+            <img src="src/img/archive_5.jpg" alt="immagine raccolta scanner" />
+        </div>
+
+        <section id="container">
+		<ul id="list">
+	
+		</ul>
+
+        <!-- END SECTION-->
+        <!-- START SECTION-->
+        <h1 class="title">WEB PLATFORM</h1>
+        <p>
+            The main interaction is done using the face, this is to keep consistency with the subjects of the images. 
+            Moving to the right, left, top or bottom will filter the images, showing those with the tag of our 
+            interest to make sure that the gaze of the people is always towards us. This is possible using json and poseNet.
+        </p>
+        <video controls autoplay muted>
+            <source src="src/video/1.mp4" type="video/mp4">
+        </video>
+        <p>
+            To aid the user's orientation, a small box has been inserted in the lower left corner showing the subdivision 
+            of the page and the position where you are.
+        </p>
+    
+        <!-- END SECTION-->
+        <!-- START SECTION-->
+        <h1 class="title">FILTERS</h1>
+        <img src="src/img/archive_6.jpg" alt="screen json" />
+        <p>
+            Json allows data to be attributed to each individual image, in this case it collects person's data such as name, 
+            date of birth, and direction of gaze.
+        </p>
+        <video controls autoplay muted>
+            <source src="src/video/2.mp4" type="video/mp4">
+        </video>
+        <p class="caption">
+            The poseNet recognizes facial points such as eyes and nose, identifying them in space through x and y coordinates. 
+            By measuring the distance between the nose and eye, it's then possible to measure how far the user is positioned from the computer.
+            In the moment when the nose is within specific x and y coordinates as well as within a certain distance, then images that have 
+            different tag than the one we are interested in will be identified in the json, hided and then showed only those that match the selected filter.
+        </p>
+        <!-- END SECTION-->
+        <!-- START SECTION-->
+        <h1 class="title">SORT</h1>
+        <video controls autoplay muted>
+            <source src="src/video/3.mp4" type="video/mp4">
+        </video>
+        <video controls autoplay muted>
+            <source src="src/video/4.mp4" type="video/mp4" class="video9">
+        </video>
+        <p class="caption">
+            Pictures can be reordered by age, in increasing or decreasing order.
+            By clicking control we will see the adult pictures first, vice versa by clicking option it will be possible to reorder them starting with the youngest. 
+            Again the date-date has been specified in the json file where the date of birth of each one has been entered. Through js the dates are compared and reordered.
+        </p>
+        <!-- END SECTION-->
+        <!-- START SECTION-->
+        <h1 class="title">SHUFFLE</h1>
+        <video controls autoplay muted>
+            <source src="src/video/5.mp4" type="video/mp4">
+        </video>
+        <p class="caption">
+            The archive can be disordered by placing the scanners in random order.
+            This is achieved by moving the window inside the screen whose position can be identified through the use of x and y coordinates. 
+            When coordinate values change, the random function is activated, which arranges the images in random order.
+        </p>
+        <!-- END SECTION-->
+        <!-- START SECTION-->
+        <h1 class="title">PREVIEW</h1>
+        <video controls autoplay muted>
+            <source src="src/video/6.mp4" type="video/mp4">
+        </video>
+        <p class="caption">
+            By calculating the distance using the poseNet, measuring the distance between the nose and eye, 
+            the value within which all images must reappear is specified.
+        </p>
+        <!-- END SECTION-->
+        <!-- START SECTION-->
+        <h1 class="title">NEXT AND PREVIOUS</h1>
+        <video controls autoplay muted>
+            <source src="src/video/7.mp4" type="video/mp4">
+        </video>
+        <video controls autoplay muted>
+            <source src="src/video/8.mp4" type="video/mp4" class="video9">
+        </video>
+        <p class="caption">
+            Once the chosen image is enlarged by clicking, to view the next or previous one simply move by 
+            clicking the left and right arrows on the keyboard.
+            For each displayed image the scanner sound will start, as if it were taken on the spot.
+        </p>
+        <!-- END SECTION-->
+        <!-- START SECTION-->
+        <h1 class="title">SEARCH</h1>
+        <video controls autoplay muted>
+            <source src="src/video/9.mp4" type="video/mp4">
+        </video>
+        <p class="caption">
+            The title is the only element present besides the images, which is why it was included in the search bar. 
+            Clicking on it makes it possible to search the images by name. Searching is the only moment when scanners 
+            lose their anonymity, however, the name must be guessed.
+        </p>
+
+        <!-- START FOOTER (Do not delete!)-->
+        <footer>
+            <p>Repository for the 2022 creative coding's exam for SUPSI Bachelor of Arts SUPSI in Visual communication <br/>© 2022-2023
+            </p>
+        </footer>
+    </div>
+</body>
+<script src="src/appreadme.js"></script>
+
+</html>
