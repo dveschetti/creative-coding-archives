@@ -1,0 +1,1403 @@
+[
+    {
+        "image": "01.jpg",
+        "title": "Dyptich_01",
+        "tag": "dyptich",
+        "year": "2020",
+        "colors": "4"
+    },
+    {
+        "image": "02.jpg",
+        "title": "Dyptich_02",
+        "tag": "dyptich",    
+        "year": "2021",
+        "colors": "3"
+    },
+    {
+        "image": "03.jpg",
+        "title": "Dyptich_03",
+        "tag": "dyptich",
+        "year": "2025",
+        "colors": "3"
+    },
+    {
+        "image": "04.jpg",
+        "title": "Dyptich_04",
+        "tag": "dyptich",
+        "year": "2022",
+        "colors": "3"
+    },
+
+    {
+        "image": "05.jpg",
+        "title": "Dyptich_04",
+        "tag": "dyptich",
+        "year": "2022",
+        "colors": "3"
+    },
+
+    {
+        "image": "06.jpg",
+        "title": "Dyptich_04",
+        "tag": "dyptich",
+        "year": "2022",
+        "colors": "3"
+    },
+
+    
+    {
+        "image": "07.jpg",
+        "title": "Dyptich_07",
+        "tag": "dyptich",
+        "year": "2022",
+        "colors": "3"
+    },
+    {
+        "image": "08.jpg",
+        "title": "Dyptich_08",
+        "tag": "dyptich",
+        "year": "2022",
+        "colors": "3"
+    },
+    {
+        "image": "09.jpg",
+        "title": "Dyptich_09",
+        "tag": "dyptich",
+        "year": "2022",
+        "colors": "3"
+    },
+    {
+        "image": "10.jpg",
+        "title": "Dyptich_10",
+        "tag": "dyptich",
+        "year": "2022",
+        "colors": "2"
+    },
+    {
+        "image": "11.jpg",
+        "title": "Dyptich_11",
+        "tag": "dyptich",
+        "year": "2022",
+        "colors": "4"
+    },
+    {
+        "image": "12.jpg",
+        "title": "Dyptich_12",
+        "tag": "dyptich",
+        "year": "2022",
+        "colors": "3"
+    },
+    {
+        "image": "13.jpg",
+        "title": "Dyptich_13",
+        "tag": "dyptich",
+        "year": "2022",
+        "colors": "2"
+    },
+    {
+        "image": "14.jpg",
+        "title": "Dyptich_14",
+        "tag": "dyptich",
+        "year": "2022",
+        "colors": "2"
+    },
+    {
+        "image": "15.jpg",
+        "title": "Dyptich_15",
+        "tag": "dyptich",
+        "year": "2022",
+        "colors": "2"
+    },
+    {
+        "image": "16.jpg",
+        "title": "Dyptich_16",
+        "tag": "dyptich",
+        "year": "2022",
+        "colors": "3"
+    },
+    {
+        "image": "17.jpg",
+        "title": "Dyptich_17",
+        "tag": "dyptich",
+        "year": "2022",
+        "colors": "3"
+    },
+    {
+        "image": "18.jpg",
+        "title": "Dyptich_18",
+        "tag": "dyptich",
+        "year": "2022",
+        "colors": "3"
+    },
+    {
+        "image": "19.jpg",
+        "title": "Dyptich_19",
+        "tag": "dyptich",
+        "year": "2022",
+        "colors": "1"
+    },
+    {
+        "image": "20.jpg",
+        "title": "Dyptich_20",
+        "tag": "dyptich",
+        "year": "2022",
+        "colors": "4"
+    },
+    {
+        "image": "21.jpg",
+        "title": "Dyptich_21",
+        "tag": "dyptich",
+        "year": "2022",
+        "colors": "4"
+    },
+    {
+        "image": "22.jpg",
+        "title": "Dyptich_22",
+        "tag": "dyptich",
+        "year": "2022",
+        "colors": "3"
+    },
+    {
+        "image": "23.jpg",
+        "title": "Dyptich_23",
+        "tag": "dyptich",
+        "year": "2022",
+        "colors": "3"
+    },
+    {
+        "image": "24.jpg",
+        "title": "Dyptich_24",
+        "tag": "dyptich",
+        "year": "2022",
+        "colors": "4"
+    },
+    {
+        "image": "25.jpg",
+        "title": "Dyptich_25",
+        "tag": "dyptich",
+        "year": "2022",
+        "colors": "5"
+    },
+    {
+        "image": "26.jpg",
+        "title": "Dyptich_26",
+        "tag": "dyptich",
+        "year": "2022",
+        "colors": "2"
+    },
+    {
+        "image": "27.jpg",
+        "title": "Dyptich_27",
+        "tag": "dyptich",
+        "year": "2022",
+        "colors": "3"
+    },
+    {
+        "image": "28.jpg",
+        "title": "Dyptich_28",
+        "tag": "dyptich",
+        "year": "2022",
+        "colors": "3"
+    },
+    {
+        "image": "29.jpg",
+        "title": "Dyptich_29",
+        "tag": "dyptich",
+        "year": "2022",
+        "colors": "2"
+    },
+    {
+        "image": "30.jpg",
+        "title": "Dyptich_30",
+        "tag": "dyptich",
+        "year": "2022",
+        "colors": "3"
+    },
+    {
+        "image": "31.jpg",
+        "title": "Dyptich_31",
+        "tag": "dyptich",
+        "year": "2022",
+        "colors": "3"
+    },
+    {
+        "image": "32.jpg",
+        "title": "Dyptich_32",
+        "tag": "dyptich",
+        "year": "2022",
+        "colors": "3"
+    },
+    {
+        "image": "33.jpg",
+        "title": "Dyptich_33",
+        "tag": "dyptich",
+        "year": "2022",
+        "colors": "2"
+    },
+    {
+        "image": "34.jpg",
+        "title": "Dyptich_35",
+        "tag": "dyptich",
+        "year": "2022",
+        "colors": "2"
+    },
+    {
+        "image": "35.jpg",
+        "title": "Dyptich_35",
+        "tag": "dyptich",
+        "year": "2022",
+        "colors": "3"
+    },
+    {
+        "image": "36.jpg",
+        "title": "Dyptich_36",
+        "tag": "dyptich",
+        "year": "2022",
+        "colors": "2"
+    },
+
+    {
+        "image": "37.jpg",
+        "title": "Casting_01",
+        "tag": "casting",
+        "year": "2018",
+        "colors": "6"
+    },
+    {
+        "image": "38.jpg",
+        "title": "Casting_02",
+        "tag": "casting",
+        "year": "2019",
+        "colors": "6"
+    },
+    {
+        "image": "39.jpg",
+        "title": "Casting_03",
+        "tag": "casting",
+        "year": "2019",
+        "colors": "6"
+    },
+    {
+        "image": "40.jpg",
+        "title": "Casting_04",
+        "tag": "casting",
+        "year": "2002",
+        "colors": "6"
+    },
+    {
+        "image": "41.jpg",
+        "title": "Casting_04",
+        "tag": "casting",
+        "year": "2002",
+        "colors": "6"
+    },
+    {
+        "image": "42.jpg",
+        "title": "Casting_05",
+        "tag": "casting",
+        "year": "2002",
+        "colors": "6"
+    },
+    {
+        "image": "43.jpg",
+        "title": "Casting_06",
+        "tag": "casting",
+        "year": "2002",
+        "colors": "6"
+    },
+
+
+
+    {
+        "image": "44.jpg",
+        "title": "Colors_01",
+        "tag": "casting",
+        "year": "2019",
+        "colors": "6"
+    },
+    {
+        "image": "45.jpg",
+        "title": "Colors_02",
+        "tag": "casting",
+        "year": "2019",
+        "colors": "6"
+    },
+    {
+        "image": "46.jpg",
+        "title": "Colors_03",
+        "tag": "casting",
+        "year": "2019",
+        "colors": "5"
+    },
+    {
+        "image": "47.jpg",
+        "title": "Colors_04",
+        "tag": "casting",
+        "year": "2019",
+        "colors": "5"
+    },
+    {
+        "image": "48.jpg",
+        "title": "Colors_05",
+        "tag": "casting",
+        "year": "2019",
+        "colors": "5"
+    },
+    {
+        "image": "49.jpg",
+        "title": "Paintings_01",
+        "tag": "casting",
+        "year": "2019",
+        "colors": "6"
+    },
+    
+    {
+        "image": "50.jpg",
+        "title": "Paintings_02",
+        "tag": "casting",
+        "year": "2019",
+        "colors": "5"
+    },
+    {
+        "image": "51.jpg",
+        "title": "Paintings_03",
+        "tag": "casting",
+        "year": "2019",
+        "colors": "5"
+    },
+    {
+        "image": "52.jpg",
+        "title": "Paintings_04",
+        "tag": "casting",
+        "year": "2019",
+        "colors": "5"
+    },
+    {
+        "image": "53.jpg",
+        "title": "Paintings_05",
+        "tag": "casting",
+        "year": "2019",
+        "colors": "5"
+    },
+    {
+        "image": "54.jpg",
+        "title": "Paintings_06",
+        "tag": "casting",
+        "year": "2019",
+        "colors": "4"
+    },
+    {
+        "image": "55.jpg",
+        "title": "Paintings_07",
+        "tag": "casting",
+        "year": "2019",
+        "colors": "3"
+    },
+    {
+        "image": "56.jpg",
+        "title": "Paintings_08",
+        "tag": "casting",
+        "year": "2019",
+        "colors": "5"
+    },
+    {
+        "image": "57.jpg",
+        "title": "Paintings_09",
+        "tag": "casting",
+        "year": "2019",
+        "colors": "5"
+    },
+    {
+        "image": "58.jpg",
+        "title": "Paintings_10",
+        "tag": "casting",
+        "year": "2019",
+        "colors": "3"
+    },
+    {
+        "image": "59.jpg",
+        "title": "Paintings_11",
+        "tag": "casting",
+        "year": "2019",
+        "colors": "4"
+    },
+    {
+        "image": "60.jpg",
+        "title": "Paintings_12",
+        "tag": "casting",
+        "year": "2019",
+        "colors": "5"
+    },
+    {
+        "image": "61.jpg",
+        "title": "Paintings_13",
+        "tag": "casting",
+        "year": "2019",
+        "colors": "4"
+    },
+    {
+        "image": "62.jpg",
+        "title": "Paintings_14",
+        "tag": "casting",
+        "year": "2019",
+        "colors": "4"
+    },
+    {
+        "image": "63.jpg",
+        "title": "Black_01",
+        "tag": "black",
+        "year": "2019",
+        "colors": "2"
+    },
+    {
+        "image": "64.jpg",
+        "title": "Black_02",
+        "tag": "black",
+        "year": "2019",
+        "colors": "2"
+    },
+    {
+        "image": "65.jpg",
+        "title": "Black_03",
+        "tag": "black",
+        "year": "2019",
+        "colors": "2"
+    },
+    {
+        "image": "66.jpg",
+        "title": "Black_04",
+        "tag": "black",
+        "year": "2019",
+        "colors": "2"
+    },
+    {
+        "image": "67.jpg",
+        "title": "Black_05",
+        "tag": "black",
+        "year": "2019",
+        "colors": "3"
+    },
+    {
+        "image": "68.jpg",
+        "title": "Black_06",
+        "tag": "black",
+        "year": "2019",
+        "colors": "3"
+    },
+    {
+        "image": "69.jpg",
+        "title": "Black_07",
+        "tag": "black",
+        "year": "2019",
+        "colors": "3"
+    },
+    {
+        "image": "70.jpg",
+        "title": "Black_08",
+        "tag": "black",
+        "year": "2019",
+        "colors": "2"
+    },
+    {
+        "image": "71.jpg",
+        "title": "Black_09",
+        "tag": "black",
+        "year": "2019",
+        "colors": "3"
+    },
+    {
+        "image": "72.jpg",
+        "title": "Shapes_01",
+        "tag": "shapes",
+        "year": "2019",
+        "colors": "2"
+    },
+    {
+        "image": "73.jpg",
+        "title": "Shapes_02",
+        "tag": "shapes",
+        "year": "2019",
+        "colors": "2"
+    },
+    {
+        "image": "74.jpg",
+        "title": "Shapes_03",
+        "tag": "shapes",
+        "year": "2019",
+        "colors": "2"
+    },
+    {
+        "image": "75.jpg",
+        "title": "Shapes_04",
+        "tag": "shapes",
+        "year": "2019",
+        "colors": "3"
+    },
+
+    {
+        "image": "76.jpg",
+        "title": "ShapesType_01",
+        "tag": "shapes",
+        "year": "2019",
+        "colors": "4"
+    },
+    {
+        "image": "77.jpg",
+        "title": "ShapesType_02",
+        "tag": "shapes",
+        "year": "2019",
+        "colors": "3"
+    },
+    {
+        "image": "78.jpg",
+        "title": "ShapesType_03",
+        "tag": "shapes",
+        "year": "2019",
+        "colors": "2"
+    },
+    {
+        "image": "79.jpg",
+        "title": "ShapesType_04",
+        "tag": "shapes",
+        "year": "2019",
+        "colors": "3"
+    },
+    {
+        "image": "80.jpg",
+        "title": "ShapesType_05",
+        "tag": "shapes",
+        "year": "2019",
+        "colors": "3"
+    },
+    {
+        "image": "81.jpg",
+        "title": "ShapesType_06",
+        "tag": "shapes",
+        "year": "2019",
+        "colors": "2"
+    },
+    {
+        "image": "82.jpg",
+        "title": "ShapesType_07",
+        "tag": "shapes",
+        "year": "2019",
+        "colors": "2"
+    },
+    {
+        "image": "83.jpg",
+        "title": "ShapesType_08",
+        "tag": "shapes",
+        "year": "2019",
+        "colors": "3"
+    },
+    {
+        "image": "84.jpg",
+        "title": "ShapesType_09",
+        "tag": "shapes",
+        "year": "2019",
+        "colors": "3"
+    },
+    {
+        "image": "85.jpg",
+        "title": "ShapesType_10",
+        "tag": "shapes",
+        "year": "2019",
+        "colors": "4"
+    },
+    {
+        "image": "86.jpg",
+        "title": "ShapesType_11",
+        "tag": "shapes",
+        "year": "2019",
+        "colors": "4"
+    },
+    {
+        "image": "87.jpg",
+        "title": "ShapesType_12",
+        "tag": "shapes",
+        "year": "2019",
+        "colors": "3"
+    },
+    {
+        "image": "88.jpg",
+        "title": "ShapesType_13",
+        "tag": "shapes",
+        "year": "2019",
+        "colors": "3"
+    },
+    {
+        "image": "89.jpg",
+        "title": "ShapesType_14",
+        "tag": "shapes",
+        "year": "2019",
+        "colors": "2"
+    },
+    {
+        "image": "90.jpg",
+        "title": "ShapesType_15",
+        "tag": "shapes",
+        "year": "2019",
+        "colors": "3"
+    },
+    {
+        "image": "91.jpg",
+        "title": "ShapesType_16",
+        "tag": "shapes",
+        "year": "2019",
+        "colors": "3"
+    },
+    {
+        "image": "92.jpg",
+        "title": "ShapesType_17",
+        "tag": "shapes",
+        "year": "2019",
+        "colors": "3"
+    },
+    {
+        "image": "93.jpg",
+        "title": "ShapesType_18",
+        "tag": "shapes",
+        "year": "2019",
+        "colors": "3"
+    },
+    {
+        "image": "94.jpg",
+        "title": "ShapesType_19",
+        "tag": "shapes",
+        "year": "2019",
+        "colors": "2"
+    },
+    {
+        "image": "95.jpg",
+        "title": "ShapesType_20",
+        "tag": "shapes",
+        "year": "2019",
+        "colors": "3"
+    },
+    {
+        "image": "96.jpg",
+        "title": "ShapesType_21",
+        "tag": "shapes",
+        "year": "2019",
+        "colors": "4"
+    },
+    {
+        "image": "97.jpg",
+        "title": "ShapesType_22",
+        "tag": "shapes",
+        "year": "2019",
+        "colors": "4"
+    },
+    {
+        "image": "98.jpg",
+        "title": "ShapesType_23",
+        "tag": "shapes",
+        "year": "2019",
+        "colors": "3"
+    },
+    {
+        "image": "99.jpg",
+        "title": "ShapesType_24",
+        "tag": "shapes",
+        "year": "2019",
+        "colors": "3"
+    },
+    {
+        "image": "100.jpg",
+        "title": "ShapesType_25",
+        "tag": "shapes",
+        "year": "2019",
+        "colors": "3"
+    },
+    {
+        "image": "101.jpg",
+        "title": "Arrow_01",
+        "tag": "arrows",
+        "year": "2019",
+        "colors": "2"
+    },
+    {
+        "image": "102.jpg",
+        "title": "Arrow_02",
+        "tag": "arrows",
+        "year": "2019",
+        "colors": "2"
+    },
+    {
+        "image": "103.jpg",
+        "title": "Arrow_03",
+        "tag": "arrows",
+        "year": "2019",
+        "colors": "2"
+    },
+    {
+        "image": "104.jpg",
+        "title": "Arrow_04",
+        "tag": "arrows",
+        "year": "2019",
+        "colors": "2"
+    },
+    {
+        "image": "105.jpg",
+        "title": "Arrow_05",
+        "tag": "arrows",
+        "year": "2019",
+        "colors": "4"
+    },
+    {
+        "image": "106.jpg",
+        "title": "Arrow_06",
+        "tag": "arrows",
+        "year": "2019",
+        "colors": "4"
+    },
+    {
+        "image": "107.jpg",
+        "title": "Graffiti_01",
+        "tag": "graffiti",
+        "year": "2019",
+        "colors": "5"
+    },
+    {
+        "image": "108.jpg",
+        "title": "Graffiti_02",
+        "tag": "graffiti",
+        "year": "2019",
+        "colors": "6"
+    },
+    {
+        "image": "109.jpg",
+        "title": "Graffiti_03",
+        "tag": "graffiti",
+        "year": "2019",
+        "colors": "4"
+    },
+    {
+        "image": "110.jpg",
+        "title": "Graffiti_04",
+        "tag": "graffiti",
+        "year": "2019",
+        "colors": "4"
+    },
+    {
+        "image": "111.jpg",
+        "title": "Graffiti_05",
+        "tag": "graffiti",
+        "year": "2019",
+        "colors": "6"
+    },
+    {
+        "image": "112.jpg",
+        "title": "Graffiti_06",
+        "tag": "graffiti",
+        "year": "2019",
+        "colors": "6"
+    },
+    {
+        "image": "113.jpg",
+        "title": "Graffiti_07",
+        "tag": "graffiti",
+        "year": "2019",
+        "colors": "6"
+    },
+    {
+        "image": "114.jpg",
+        "title": "Graffiti_08",
+        "tag": "graffiti",
+        "year": "2019",
+        "colors": "6"
+    },
+    {
+        "image": "115.jpg",
+        "title": "Graffiti_09",
+        "tag": "graffiti",
+        "year": "2019",
+        "colors": "6"
+    },
+    {
+        "image": "116.jpg",
+        "title": "Graffiti_10",
+        "tag": "graffiti",
+        "year": "2019",
+        "colors": "6"
+    },
+    {
+        "image": "117.jpg",
+        "title": "Graffiti_11",
+        "tag": "graffiti",
+        "year": "2019",
+        "colors": "6"
+    },
+    {
+        "image": "118.jpg",
+        "title": "Graffiti_12",
+        "tag": "graffiti",
+        "year": "2019",
+        "colors": "3"
+    },
+    {
+        "image": "119.jpg",
+        "title": "Graffiti_13",
+        "tag": "graffiti",
+        "year": "2019",
+        "colors": "4"
+    },
+    {
+        "image": "120.jpg",
+        "title": "Graffiti_14",
+        "tag": "graffiti",
+        "year": "2019",
+        "colors": "5"
+    },
+    {
+        "image": "121.jpg",
+        "title": "Graffiti_15",
+        "tag": "graffiti",
+        "year": "2019",
+        "colors": "5"
+    },
+    {
+        "image": "122.jpg",
+        "title": "Graffiti_16",
+        "tag": "graffiti",
+        "year": "2019",
+        "colors": "2"
+    },
+    {
+        "image": "123.jpg",
+        "title": "Graffiti_17",
+        "tag": "graffiti",
+        "year": "2019",
+        "colors": "5"
+    },
+    {
+        "image": "124.jpg",
+        "title": "Graffiti_18",
+        "tag": "graffiti",
+        "year": "2019",
+        "colors": "3"
+    },
+    {
+        "image": "125.jpg",
+        "title": "Graffiti_19",
+        "tag": "graffiti",
+        "year": "2019",
+        "colors": "5"
+    },
+    {
+        "image": "126.jpg",
+        "title": "Graffiti_20",
+        "tag": "graffiti",
+        "year": "2019",
+        "colors": "4"
+    },
+    {
+        "image": "127.jpg",
+        "title": "Graffiti_21",
+        "tag": "graffiti",
+        "year": "2019",
+        "colors": "5"
+    },
+    {
+        "image": "128.jpg",
+        "title": "Graffiti_21",
+        "tag": "graffiti",
+        "year": "2019",
+        "colors": "5"
+    },
+
+    {
+        "image": "128.jpg",
+        "title": "Type_03",
+        "tag": "type",
+        "year": "2019",
+        "colors": "4"
+    },
+
+    {
+        "image": "129.jpg",
+        "title": "Type_04",
+        "tag": "type",
+        "year": "2019",
+        "colors": "4"
+    },
+
+    {
+        "image": "130.jpg",
+        "title": "Type_05",
+        "tag": "type",
+        "year": "2019",
+        "colors": "4"
+    },
+
+    {
+        "image": "131.jpg",
+        "title": "Type_06",
+        "tag": "type",
+        "year": "2019",
+        "colors": "5"
+    },
+
+    {
+        "image": "132.jpg",
+        "title": "Type_07",
+        "tag": "type",
+        "year": "2019",
+        "colors": "5"
+    },
+
+    {
+        "image": "133.jpg",
+        "title": "Type_08",
+        "tag": "type",
+        "year": "2019",
+        "colors": "4"
+    },
+
+    {
+        "image": "134.jpg",
+        "title": "Type_09",
+        "tag": "type",
+        "year": "2019",
+        "colors": "4"
+    },
+
+    {
+        "image": "135.jpg",
+        "title": "Type_10",
+        "tag": "type",
+        "year": "2019",
+        "colors": "4"
+    },
+
+    {
+        "image": "136.jpg",
+        "title": "Logo_01",
+        "tag": "logo",
+        "year": "2019",
+        "colors": "3"
+    },
+    {
+        "image": "137.jpg",
+        "title": "Logo_02",
+        "tag": "logo",
+        "year": "2019",
+        "colors": "4"
+    },
+    {
+        "image": "138.jpg",
+        "title": "Logo_03",
+        "tag": "logo",
+        "year": "2019",
+        "colors": "4"
+    },
+    {
+        "image": "139.jpg",
+        "title": "Logo_04",
+        "tag": "logo",
+        "year": "2019",
+        "colors": "3"
+    },
+    {
+        "image": "140.jpg",
+        "title": "Logo_05",
+        "tag": "logo",
+        "year": "2019",
+        "colors": "4"
+    },
+    {
+        "image": "141.jpg",
+        "title": "Logo_06",
+        "tag": "logo",
+        "year": "2019",
+        "colors": "3"
+    },
+    {
+        "image": "142.jpg",
+        "title": "Logo_07",
+        "tag": "logo",
+        "year": "2019",
+        "colors": "3"
+    },
+    {
+        "image": "143.jpg",
+        "title": "Logo_08",
+        "tag": "logo",
+        "year": "2019",
+        "colors": "4"
+    },
+
+    {
+        "image": "144.jpg",
+        "title": "Numbers_01",
+        "tag": "numbers",
+        "year": "2019",
+        "colors": "4"
+    },
+    {
+        "image": "145.jpg",
+        "title": "Numbers_02",
+        "tag": "numbers",
+        "year": "2019",
+        "colors": "4"
+    },
+    {
+        "image": "146.jpg",
+        "title": "Numbers_03",
+        "tag": "numbers",
+        "year": "2019",
+        "colors": "3"
+    },
+    {
+        "image": "147.jpg",
+        "title": "Numbers_04",
+        "tag": "numbers",
+        "year": "2019",
+        "colors": "4"
+    },
+    {
+        "image": "148.jpg",
+        "title": "Numbers_05",
+        "tag": "numbers",
+        "year": "2019",
+        "colors": "3"
+    },
+    {
+        "image": "149.jpg",
+        "title": "Numbers_06",
+        "tag": "numbers",
+        "year": "2019",
+        "colors": "4"
+    },
+    {
+        "image": "150.jpg",
+        "title": "Numbers_07",
+        "tag": "numbers",
+        "year": "2019",
+        "colors": "4"
+    },
+    {
+        "image": "151.jpg",
+        "title": "Numbers_08",
+        "tag": "numbers",
+        "year": "2019",
+        "colors": "3"
+    },
+    {
+        "image": "152.jpg",
+        "title": "Numbers_09",
+        "tag": "numbers",
+        "year": "2019",
+        "colors": "4"
+    },
+    {
+        "image": "153.jpg",
+        "title": "Numbers_10",
+        "tag": "numbers",
+        "year": "2019",
+        "colors": "2"
+    },
+    {
+        "image": "154.jpg",
+        "title": "Numbers_11",
+        "tag": "numbers",
+        "year": "2019",
+        "colors": "3"
+    },
+    {
+        "image": "155.jpg",
+        "title": "Numbers_12",
+        "tag": "numbers",
+        "year": "2019",
+        "colors": "3"
+    },
+    {
+        "image": "156.jpg",
+        "title": "Numbers_13",
+        "tag": "numbers",
+        "year": "2019",
+        "colors": "4"
+    },
+    {
+        "image": "157.jpg",
+        "title": "Numbers_14",
+        "tag": "numbers",
+        "year": "2019",
+        "colors": "4"
+    },
+    {
+        "image": "158.jpg",
+        "title": "Numbers_15",
+        "tag": "numbers",
+        "year": "2019",
+        "colors": "5"
+    },
+
+
+
+
+
+
+
+    {
+        "image": "172.jpg",
+        "title": "Rectangles_01",
+        "tag": "rectangles",
+        "year": "2019",
+        "colors": "3"
+    },
+    {
+        "image": "173.jpg",
+        "title": "Rectangles_02",
+        "tag": "rectangles",
+        "year": "2019",
+        "colors": "3"
+    },
+    {
+        "image": "174.jpg",
+        "title": "Rectangles_03",
+        "tag": "rectangles",
+        "year": "2019",
+        "colors": "3"
+    },
+    {
+        "image": "175.jpg",
+        "title": "Rectangles_04",
+        "tag": "rectangles",
+        "year": "2019",
+        "colors": "3"
+    },
+    {
+        "image": "176.jpg",
+        "title": "Rectangles_05",
+        "tag": "rectangles",
+        "year": "2019",
+        "colors": "3"
+    },
+    {
+        "image": "177.jpg",
+        "title": "Rectangles_06",
+        "tag": "rectangles",
+        "year": "2019",
+        "colors": "3"
+    },
+    {
+        "image": "178.jpg",
+        "title": "Rectangles_07",
+        "tag": "rectangles",
+        "year": "2019",
+        "colors": "3"
+    },
+    {
+        "image": "179.jpg",
+        "title": "Rectangles_08",
+        "tag": "rectangles",
+        "year": "2019",
+        "colors": "3"
+    },
+    {
+        "image": "180.jpg",
+        "title": "Rectangles_09",
+        "tag": "rectangles",
+        "year": "2019",
+        "colors": "3"
+    },
+    {
+        "image": "181.jpg",
+        "title": "Rectangles_10",
+        "tag": "rectangles",
+        "year": "2019",
+        "colors": "3"
+    },
+    {
+        "image": "182.jpg",
+        "title": "Rectangles_11",
+        "tag": "rectangles",
+        "year": "2019",
+        "colors": "3"
+    },
+    {
+        "image": "183.jpg",
+        "title": "Rectangles_12",
+        "tag": "rectangles",
+        "year": "2019",
+        "colors": "3"
+    },
+    {
+        "image": "184.jpg",
+        "title": "Rectangles_13",
+        "tag": "rectangles",
+        "year": "2019",
+        "colors": "3"
+    },
+    {
+        "image": "186.jpg",
+        "title": "Rectangles_14",
+        "tag": "rectangles",
+        "year": "2019",
+        "colors": "3"
+    },
+    {
+        "image": "187.jpg",
+        "title": "Rectangles_15",
+        "tag": "rectangles",
+        "year": "2019",
+        "colors": "3"
+    },
+    {
+        "image": "188.jpg",
+        "title": "Simbols_01",
+        "tag": "simbols",
+        "year": "2019",
+        "colors": "4"
+    },
+    {
+        "image": "189.jpg",
+        "title": "Simbols_02",
+        "tag": "simbols",
+        "year": "2019",
+        "colors": "4"
+    },
+    {
+        "image": "190.jpg",
+        "title": "Simbols_03",
+        "tag": "simbols",
+        "year": "2019",
+        "colors": "4"
+    },
+    {
+        "image": "191.jpg",
+        "title": "Simbols_04",
+        "tag": "simbols",
+        "year": "2019",
+        "colors": "4"
+    },
+    {
+        "image": "193.jpg",
+        "title": "Icons_01",
+        "tag": "simbols",
+        "year": "2019",
+        "colors": "4"
+    },
+    {
+        "image": "222.jpg",
+        "title": "Icons_02",
+        "tag": "simbols",
+        "year": "2019",
+        "colors": "4"
+    },
+    {
+        "image": "223.jpg",
+        "title": "Icons_03",
+        "tag": "simbols",
+        "year": "2019",
+        "colors": "4"
+    },
+    {
+        "image": "224.jpg",
+        "title": "Icons_04",
+        "tag": "simbols",
+        "year": "2019",
+        "colors": "2"
+    },
+    {
+        "image": "228.jpg",
+        "title": "Icons_05",
+        "tag": "simbols",
+        "year": "2019",
+        "colors": "4"
+    },
+    {
+        "image": "229.jpg",
+        "title": "Icons_06",
+        "tag": "simbols",
+        "year": "2019",
+        "colors": "4"
+    },
+    {
+        "image": "231.jpg",
+        "title": "Icons_01",
+        "tag": "simbols",
+        "year": "2019",
+        "colors": "2"
+    },
+
+
+   
+    
+    {
+        "image": "238.jpg",
+        "title": "Type_01",
+        "tag": "type",
+        "year": "2019",
+        "colors": "4"
+    },
+    {
+        "image": "239.jpg",
+        "title": "Type_02",
+        "tag": "type",
+        "year": "2019",
+        "colors": "4"
+    },
+    {
+        "image": "254.jpg",
+        "title": "Texture_01",
+        "tag": "texture",
+        "year": "2019",
+        "colors": "4"
+    },
+    {
+        "image": "255.jpg",
+        "title": "Texture_02",
+        "tag": "texture",
+        "year": "2019",
+        "colors": "4"
+    },
+    {
+        "image": "256.jpg",
+        "title": "Texture_03",
+        "tag": "texture",
+        "year": "2019",
+        "colors": "4"
+    },
+    {
+        "image": "257.jpg",
+        "title": "Texture_04",
+        "tag": "texture",
+        "year": "2019",
+        "colors": "4"
+    },
+    {
+        "image": "259.jpg",
+        "title": "Texture_05",
+        "tag": "texture",
+        "year": "2019",
+        "colors": "4"
+    },
+    {
+        "image": "260.jpg",
+        "title": "Texture_06",
+        "tag": "texture",
+        "year": "2019",
+        "colors": "4"
+    },
+    {
+        "image": "261.jpg",
+        "title": "Texture_07",
+        "tag": "texture",
+        "year": "2019",
+        "colors": "4"
+    },
+    {
+        "image": "262.jpg",
+        "title": "Texture_08",
+        "tag": "texture",
+        "year": "2019",
+        "colors": "4"
+    }
+    
+    
+
+
+
+]
