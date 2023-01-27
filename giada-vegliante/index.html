@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Vegliante Giada</title>
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta name="description" content="CC – SUPSI 2022">
+	<meta name="keywords" content="Creative, Coding, SUPSI, 2022">
+	<meta name="web_author" content="Vegliante Giada">
+	<meta name="copyright" content="Vegliante Giada">
+	<link href="src/style.css" rel="stylesheet" />
+</head>
+
+<body>
+	<section id="preloader" class=""> 
+		<video autoplay muted id="myvideo"> <source src="/src/preloader/2.mp4"></video>
+	</section>
+
+	<!-- Tag and Sort-->
+	<section id="container">
+		<div class="buttons" id="tag">
+			<button id="v1" class="button-filter" data-tag="*" style="color: white;" > All </button>
+			<button id="v2" class="button-filter" data-tag="disney" style="color: white;"> Disney </button>
+			<button id="v3" class="button-filter" data-tag="anime" style="color: white;"> Anime </button>
+			<button id="v4" class="button-filter" data-tag="cartoons" style="color: white;"> Cartoon </button>
+			<!-- <button class="button-filter" data-tag="animal" style="color: white;"> Animal</button>
+			<button class="button-filter" data-tag="non-human" style="color: white;">Non-human</button> -->
+		</div>
+
+		<div class="buttons" id="sort">
+			<button id="v5" class="button-sort" data-sort="title>" style="color: white;"> Name a-z </button>
+			<button id="v6" class="button-sort" data-sort="title<" style="color: white;"> Name z-a </button>
+			<button id="v7" class="button-sort" data-sort="year>" style="color: white;"> Year > </button>
+			<button id="v8" class="button-sort" data-sort="year<" style="color: white;"> Year < </button>
+			<button id="v9" class="button-sort" data-sort="time>" style="color: white;">  Duration > </button>
+			<button id="v10" class="button-sort" data-sort="time<" style="color: white;">  Duration < </button>
+		</div>
+
+		<div class="buttons">
+			<form name="search">
+				<input  id="search" type="text" class="input" name="txt" onmouseout="this.value = ''; this.blur();"  placeholder="Search" >
+			</form>
+		</div>
+		
+
+		<ul id="list">
+		</ul>
+
+		<button id="shuffle" style="color: white;">Shuffle</button>
+		<button id="next" style="color: white;">Next</button>
+		<button id="prev" style="color: white;">Prev</button>
+	</section>
+
+</body>
+
+<!-- Preloader -->
+<script>
+	setTimeout(()=>{
+			//hide the preloader
+			console.log("carico")
+			document.getElementById("preloader").classList.add("preloaderNone");
+			},4000)
+</script>
+
+<!-- P5 JS-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/addons/p5.sound.min.js"></script>
+<script src="https://unpkg.com/ml5@latest/dist/ml5.min.js" type="text/javascript"></script>
+
+<!-- JS-->
+<script src="src/p5.js"></script>
+<script src="src/app.js"></script>
+
+</html>
