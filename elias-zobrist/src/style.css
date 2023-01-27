@@ -1,0 +1,381 @@
+/* Default stylesheet and tools */
+body,
+html {
+	background: rgb(0, 0, 0);
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 11px;
+	transition: all 0.2s ease-in-out;
+}
+
+#text {
+	position: absolute;
+	display: inline-block;
+	width: 900px;
+	color: white;
+	left: 41.5%;
+	top: 23px;
+	font-weight: bold;
+	font-size: 12px;
+	
+}
+
+#container {
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+	overflow: auto;
+}
+
+#container>ul {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0;
+	margin: 0;
+	padding: 5px;
+}
+
+#container>ul>li {
+	list-style: none;
+	width: calc(19% - 1%);
+	height: auto;
+	position: relative;
+	padding-left: 1%;
+	padding-right: 1%;
+	padding-bottom: 8px;
+}
+
+#container>ul>li.list-item {
+	cursor: pointer;
+}
+
+#container>ul>li.list-item.hide {
+	display: none;
+}
+
+
+#container>ul>li.list-item>.item {
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+	transition: all ease-in-out 0.2s;
+	position: relative;
+}
+
+.item {
+	transition: all 700ms ease-in-out 10s ;
+	opacity: 0;
+	overflow: auto;
+	pointer-events: none;
+
+}
+
+.item.show {
+	opacity: 1;	
+}
+
+#container>ul>li.list-item.active {
+	background: rgb(0, 0, 0);
+	color: white;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 999;
+}
+
+#container>ul>li.list-item.active>.item {
+	overflow: hidden;
+}
+
+
+img {
+	max-width: 100%;
+	pointer-events: none;
+}
+
+#container>ul>li.list-item>.item>p {
+	padding-top: 0px;
+	margin-top: 8px;
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+}
+
+#container>ul>li.list-item.active>.item>img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+
+#shuffle {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	z-index: 10000;
+}
+
+#next {
+	position: fixed;
+	right: 80px;
+	bottom: 0;
+	z-index: 10000;
+	display: none;
+	
+}
+
+#prev {
+	position: fixed;
+	right: 135px;
+	bottom: 0;
+	z-index: 10000;
+	display: none;
+}
+
+canvas {
+	position: fixed;
+	bottom: 10px;
+	left: 10px;
+	transform: scale(0.5);
+	transform-origin: bottom left;
+	z-index: 1111;
+	display: none;
+}
+
+#container-mouse {
+	position: fixed;
+	height: 50px;
+	width: 50px;
+	top: -100px;
+	left: -100px;
+	background: rgb(240, 240, 240);
+	-webkit-box-shadow: 4px 2px 15px -3px rgba(0, 0, 0, 0.31);
+	box-shadow: 4px 2px 15px -3px rgba(0, 0, 0, 0.31);
+	border-radius: 50%;
+	transform-origin: center center;
+	transform: translate(-50%, -50%);
+	cursor: none;
+	z-index: 100;
+}
+
+@media (max-width:960px) {
+	#tools {
+		display: block;
+		width: calc(100% - 20px);
+	}
+}
+
+.buttons{
+	width: 400px;
+}
+
+#btnAll{
+	position: relative;
+	display: inline-block;
+	width: auto;
+	text-align: left;
+	background-color: unset;
+	color: rgb(255, 255, 255);
+	font-size: 40px;
+	
+	
+}
+#btnAll:hover{
+	background-color: none;
+	
+}
+
+/* Dropdown Button*/
+.dropbtn {
+	background-color:rgba(0, 0, 255, 0);
+	border: none;
+	width: 200px;
+	
+}	
+  
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+	position: fixed;
+	z-index: 900;
+	width: 200px;
+	height: auto;
+	left: 10%;
+
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+	display: none;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+/* Change color of dropdown links on hover */
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn img {
+	filter: drop-shadow(0 -3mm 4mm rgb(0, 0, 0));
+}
+
+/* ------------------------------------------ */
+.dropbtn2 {
+	background-color:rgba(0, 0, 255, 0);
+	border: none;
+	width: 200px;
+}
+.dropdown2 {
+	position: fixed;
+	z-index: 900;
+	width: 200px;
+	height: auto;
+	left: 60%;
+
+}
+.dropdown2-content {
+	display: none;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+/* Change color of dropdown links on hover */
+/* Show the dropdown menu on hover */
+.dropdown2:hover .dropdown2-content {
+	display: block;
+	
+}
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown2:hover .dropbtn2 img {
+	filter: drop-shadow(0 -3mm 4mm rgb(0, 0, 0));
+}
+
+/* ------------------------------------------ */
+.dropbtnpuff {
+	background-color:rgba(0, 0, 255, 0);
+	border: none;
+	width: 330px;
+	
+
+}
+.dropdownpuff {
+	position: fixed;
+	z-index: 900;
+	width: 200px;
+	height: auto;
+	left: 30%;
+	top: 15%;
+
+}
+.dropdownpuff-content {
+	display: none;
+	min-width: 200px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	margin-left: 30%;
+}
+/* Change color of dropdown links on hover */
+/* Show the dropdown menu on hover */
+.dropdownpuff:hover .dropdownpuff-content {
+	display: block;
+	
+}
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdownpuff:hover .dropbtnpuff img {
+	filter: drop-shadow(0 -3mm 4mm rgb(0, 0, 0));
+}
+
+/* ------------------------------------------ */
+#shuffle {
+	position: fixed;
+	z-index: 900;
+	background-color:rgba(0, 0, 255, 0);
+	border: none;
+	width: 330px;
+	right: 5%;
+	
+}
+/* Change the background color of the dropdown button when the dropdown content is shown */
+#shuffle:hover img {
+	filter: drop-shadow(0 -3mm 4mm rgb(0, 0, 0));
+}
+.button-sort{
+	width: 100px;
+	height: auto;
+}
+
+/* ------------------------------------------ */
+#filter1 {
+	rotate: 45deg;
+	position: fixed;
+	z-index: 899;
+	background-color:rgba(0, 0, 255, 0);
+	border: none;
+	left: 10%;
+	top: 70%;
+	
+}
+/* Change the background color of the dropdown button when the dropdown content is shown */
+#filter1:hover img {
+	filter: drop-shadow(0 -3mm 4mm rgb(0, 0, 0));
+	
+}
+
+/* ------------------------------------------ */
+#filter2 {
+	position: fixed;
+	z-index: 899;
+	background-color:rgba(0, 0, 255, 0);
+	border: none;
+	left: 17%;
+	top: 75%;
+	
+}
+/* Change the background color of the dropdown button when the dropdown content is shown */
+#filter2:hover img {
+	filter: drop-shadow(0 -3mm 4mm rgb(0, 0, 0));
+}
+
+.buttons {
+	padding: 10px 10px;
+}
+
+.button-filter {
+	background-color: rgb(255, 255, 255);
+	width: 100%;
+	color: rgb(0, 0, 0);
+	padding-left: 4px;
+	padding: 10px;
+	text-decoration: none;
+	border: none;
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+}
+.button-filter:hover {
+	background-color: rgb(243, 180, 63);
+}
+
+#search{
+	position: absolute;
+	width: 200px;
+	height: 25px;
+	padding-left: 8px;
+	background-color: black;
+	border-width: 2px;
+	border-color: white;
+	color: white;
+	font-size: 12px;
+	font-weight: bold;
+
+	top: 35px;
+	right: 25px;
+}
