@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>CC - Alessia La Rocca</title>
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta name="description" content="CC – SUPSI 2022">
+	<meta name="keywords" content="Creative, Coding, SUPSI, 2022">
+	<meta name="web_author" content="Alessia La Rocca">
+	<meta name="copyright" content="Alessia La Rocca">
+	<link href="src/style.css" rel="stylesheet" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<section id="container">
+		<header>
+			<h1>till June 29th 2007</h1>
+			<p>On June 29th 2007, the first iPhone was launched. From that day, the way people collect their memories changed. This is my life before that day.</p>
+		</header>
+
+	 	<div class="dropdown-tag">
+			<button class="dropbtn-tag">Tag</button>
+			<div class="dropdown-content-tag">
+				<a class="button-filter" data-tag="*">All</a>
+				<a class="button-filter" data-tag="Mom">Mom</a>
+				<a class="button-filter" data-tag="Dad">Dad</a>
+				<a class="button-filter" data-tag="Sis">Sis</a>
+				<a class="button-filter" data-tag="Gramps">Gramps</a>
+				<a class="button-filter" data-tag="Fam">Fam</a>
+				<a class="button-filter" data-tag="Friends">Friends</a>
+			</div>
+		</div> 
+		<div class="dropdown-sort">
+			<button class="dropbtn-sort">Sort</button>
+			<div class="dropdown-content-sort">
+				<a class="button-sort" data-sort="place<">Place A-Z</a>
+				<a class="button-sort" data-sort="place>">Place Z-A</a>
+				<a class="button-sort" data-sort="year>">Most recent</a>
+				<a class="button-sort" data-sort="year<">Oldest</a>
+			</div>
+		</div> 
+
+		<div class="buttons">
+			<input type="text" id="search" placeholder="Search" autocomplete="off">
+		</div>
+
+		<div id="titles">
+			<p class="year">year</p>
+			<p class="caption">caption</p>
+			<p class="tag">tag</p>
+			<p class="place">place</p>
+		</div>
+		
+		<ul id="list"></ul>   
+
+		<button id="shuffle">SHUFFLE</button>
+	</section>
+
+</body>
+
+<!-- JS-->
+<script src="src/app.js"></script>
+
+</html>

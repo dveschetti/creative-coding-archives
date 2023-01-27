@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Alessia La Rocca – till June 29th 2007</title>
+    <meta charset="utf-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description"
+        content="Repository for the 2022 course play-pause-rewind shuffle for SUPSI Bachelor of Arts SUPSI in Visual communication">
+    <meta name="keywords" content="">
+    <meta name="language" content="english">
+    <meta name="web_author" content="Name surname">
+    <meta name="copyright" content="Name surname">
+    <link rel="icon" href="src/img/fav.png">
+    <link href="src/readme.css" rel="stylesheet" />
+
+    </style>
+</head>
+
+<body>
+    <div id="back">
+        <a href="#">Back</a>
+    </div>
+    <div id="wrapper">
+        <h1>Alessia La Rocca<br />
+            till June 29th 2007</h1>
+        <p class="abstract">
+            On 29th June 2007, the first iPhone was presented; since that day, the way people collect their memories has changed. With the arrival of social media and the increasingly powerful smartphone cameras, the habit of taking photographs with roll cameras to be stored in paper albums has been abandoned.
+            <br>In this project, I have collected and digitised my photographs found in these albums from 1998, my year of birth, until 2007.
+            <br>I reinterpreted them in a more contemporary way by giving them a caption as one would do now by posting them on social networks.
+           
+        </p>
+        <ul>
+            <li><a href="https://alessialarocca.github.io/29th-june-2007/" target="_blank">Link website</a></li>
+            <li><a href="https://github.com/dveschetti/creative-coding-archives" target="_blank">Github</a></li>
+        </ul>
+        <h1 class="title">Archive</h1>
+        <img src="src/img/intro.png" alt="immagine composta" />
+
+        <!-- END SECTION-->
+        <!-- START SECTION-->
+        <h1 class="title">mouseenter: preview, previous, next</h1>
+        <video controls autoplay muted loop>
+            <source src="src/video/mouseenter_1.mp4" type="video/mp4">
+        </video>
+        <p>
+            The preview (and consequently the previous and next features) is created with a mouseenter in the element. 
+            I started by understanding how to handle the elements from the json and the final effect causes the element to be first displayed as a caption and then showing the image.
+        </p>
+        <video controls autoplay muted loop>
+            <source src="src/video/mouseenter_2.mp4" type="video/mp4">
+        </video>
+       
+        <!-- END SECTION-->
+        <!-- START SECTION-->
+        <h1 class="title">filters</h1>
+        <video controls autoplay muted loop>
+          <source src="src/video/filter.mp4" type="video/mp4">
+        </video>
+        <p>
+            Filters manage the tags attributed to the image, in this case the people in the picture are categorised.
+        </p>
+        <!-- END SECTION-->
+        <!-- START SECTION-->
+            <h1 class="title">sort</h1>
+            <video controls autoplay muted loop>
+              <source src="src/video/sort.mp4" type="video/mp4">
+            </video>
+            <p>
+                The sort function sorts the items; you can manage the year from oldest to newest and the place where the photo was taken in alphabetical order or the reverse.
+            </p>
+        <!-- END SECTION-->
+        <!-- START SECTION-->
+        <h1 class="title">keypress: shuffle</h1>
+        <video controls autoplay muted loop>
+          <source src="src/video/shuffle.mp4" type="video/mp4">
+        </video>
+        <p>
+            The input for the shuffle button is done with the keypress, in this case using the letter 'g'.
+        </p>
+        <!-- END SECTION-->
+        <!-- START SECTION-->
+           <h1 class="title">search</h1>
+           <video controls autoplay muted loop>
+             <source src="src/video/search.mp4" type="video/mp4">
+           </video>
+           <p>
+            The search bar inspects the elements inserted within the caption.
+           </p>
+        <!-- END SECTION-->
+        <!-- START SECTION-->
+        <h1 class="title">mousemove: x axis</h1>
+        <video controls autoplay muted loop>
+          <source src="src/video/movex.mp4" type="video/mp4">
+        </video>
+        <p>
+            A mousemove function has been added that selects the image class in css and changes its position on the x-axis.
+            Vertically, there was no need to update the y-position as it already depends on the mouseenter in the items.
+        </p>
+        <!-- END SECTION-->
+        <!-- START SECTION-->
+         <h1 class="title">year digits</h1>
+         <video controls autoplay muted loop>
+           <source src="src/video/digits.mp4" type="video/mp4">
+         </video>
+         <p>
+            It was important to give the year data in the json file the exact date so that the sort would sort the photos correctly, but visually this full data was not needed as only the first four digits of the year are shown. Therefore, when inserting the contents, a function had to be added to show only these first digits.
+         </p>
+        <!-- END SECTION-->
+        <!-- START SECTION-->
+         <h1 class="title">overflow and blend mode</h1>
+         <video controls autoplay muted loop>
+           <source src="src/video/overflow.mp4" type="video/mp4">
+         </video>
+         <p>
+            The header elements and filters are fixed at the scroll of the page so that the tag and sort can be managed at any time. A transparency blend was added to separate the elements from the background.
+         </p>
+        <!-- END SECTION-->
+        
+        <!-- START FOOTER (Do not delete!)-->
+        <footer>
+            <p>Repository for the 2022 course archive for SUPSI Bachelor of Arts SUPSI in Visual
+                communication. <br/>© 2022-2023
+            </p>
+        </footer>
+    </div>
+</body>
+
+</html>

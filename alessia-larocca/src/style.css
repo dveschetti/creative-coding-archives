@@ -1,0 +1,248 @@
+body,
+html {
+	background-color: #1a1a1a;
+	padding: 0;
+	margin: 0;
+	overflow-y: scroll;
+	overflow-x: hidden; 
+	cursor: default;
+	font-family: 'Work Sans', sans-serif;
+	cursor: url('./img/cursor.png')18 18, auto;
+}
+#container {
+	width: 100vw;
+	height: 100vh; 
+	background-color: #1a1a1a;
+	padding: 10px; 	
+}
+#container div{
+	padding: 10px;
+}
+header>h1 {
+	z-index:99999;
+	position:fixed;
+    overflow-y:hidden;
+    overflow-x:hidden;
+	color: white;
+	font-size: 20px;
+	font-weight: 400;
+	width: 20vw;
+	mix-blend-mode: difference;
+}
+header>p {
+	z-index:99999;
+	position:fixed;
+    overflow-y:hidden;
+    overflow-x:hidden;
+	color: white;
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: uppercase;
+	left: 20%;
+	width: 20vw;
+	mix-blend-mode: difference;
+}
+#titles {
+	color: white;
+	position: absolute;
+	top: 25%;
+	width: 97vw;
+	text-transform: uppercase;
+	font-size: 12px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	margin-bottom: 5px;
+	justify-content: left;
+	
+}
+.year{
+	position: relative;
+	left: 0;
+}
+.caption{
+	position: absolute;
+	left: 20%;
+}
+.tag{
+	position: relative;
+	left: 58%;
+}
+.place{
+	position: relative;
+	left: 77%;
+}
+#container>ul {
+	position: absolute;
+	display: grid;
+	flex-wrap: wrap;
+	margin: 0;
+	top: 30%;
+	padding: 5px;
+	padding-bottom: 500px;
+	flex-direction: column;
+	grid-column-start: 1;
+	grid-column-end: 6;
+}
+#container>ul>li {
+	display: grid;
+	list-style: none;
+	width: 97vw;
+	height: auto;
+	padding: 5px;
+	border-top: 1px solid #929292;
+}
+.item.show{
+	display: grid;
+	height: 20px;
+	align-items: flex-start;
+}
+.item.show:hover{
+	background-color: #222222;
+}
+.item.show>img {
+	width: 0;
+	opacity: 0;
+}
+.item.show:hover>img {
+	margin-top: -10%;
+	opacity: 1;
+	width: 500px;
+	z-index: 1;
+	position: absolute;
+}
+/* data */
+.item.show>p{
+	color: white;
+	font-size: 14px;
+	display: grid;
+}
+/* year */
+.item.show>p:nth-child(3){
+	position: absolute;
+	left: 1%;
+}
+/* caption */
+.item.show>p:nth-child(2){
+	position: absolute;
+	left: 20%;
+}
+/* tag */
+.item.show>p:nth-child(4){
+	position: absolute;
+	left: 60%; 
+}
+/* place */
+.item.show>p:nth-child(5){
+	position: absolute;
+	left: 80%;
+}
+/* bottoni */
+#shuffle {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	opacity: 0;
+}
+#search {
+	position: fixed;
+	left: 79%;
+	z-index: 999999;
+	background-color: #1a1a1a;
+	color: white;
+	padding: 14px;
+	font-size: 16px;
+	border: 1px solid white;
+	height: 0.5px;
+	font-family: 'Work Sans', sans-serif;
+	font-size: 14px;
+	text-align: left;
+	cursor: url('./img/cursor.png')18 18, auto;
+}
+/* tag dropdown */
+.dropdown-tag{
+	z-index: 999999;
+	position: fixed;
+	left: 58.5%;
+}
+.dropbtn-tag {
+	background-color: #1a1a1a;
+	width: 100px;
+	height: 30px;
+	font-family: 'Work Sans', sans-serif;
+	font-size: 14px;
+	text-align: left;
+	color: white;
+	border: 1px solid white;
+	cursor: url('./img/cursor.png')18 18, auto;
+}
+.dropdown-content-tag{
+	display: none;
+	background-color: #1a1a1a;
+	border: 1px solid white;
+	width: 100px;
+	margin-top: 5px;
+}
+.dropdown-content-tag a{
+	display: block;
+	color: white;
+	font-family: 'Work Sans', sans-serif;
+	font-size: 12px;
+	margin-bottom: 5px;
+	padding: 3px;
+}
+.dropdown-content-tag a:hover{
+	background-color: #222222;
+}
+.dropdown-tag:hover .dropdown-content-tag{
+	display: block;
+}
+/* sort dropdown */
+.dropdown-sort{
+	z-index: 999999;
+	position: fixed;
+	left: 66%;
+}
+.dropbtn-sort {
+	background-color: #1a1a1a;
+	width: 100px;
+	height: 30px;
+	font-family: 'Work Sans', sans-serif;
+	font-size: 14px;
+	text-align: left;
+	color: white;
+	border: 1px solid white;
+	cursor: url('./img/cursor.png')18 18, auto;
+}
+.dropdown-content-sort{
+	display: none;
+	background-color: #1a1a1a;
+	border: 1px solid white;
+	width: 100px;
+	margin-top: 5px;
+}
+.dropdown-content-sort a{
+	display: block;
+	color: white;
+	font-family: 'Work Sans', sans-serif;
+	font-size: 12px;
+	margin-bottom: 5px;
+	padding: 3px;
+}
+.dropdown-content-sort a:hover{
+	background-color: #222222;
+	
+}
+.dropdown-sort:hover .dropdown-content-sort{
+	display: block;
+}
+
+
+  
+
+@media (max-width:960px) {
+	#tools {
+		display: block;
+		width: calc(100% - 20px);
+	}
+}
