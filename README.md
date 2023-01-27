@@ -1,4 +1,4 @@
-# play-pause-rewind-shuffle
-Repository for the 2022 course play-pause-rewind-shuffle for SUPSI Bachelor of Arts SUPSI in Visual communication.<br />
+# Creative coding exam
+Repository for the 2022 creative coding exam for SUPSI Bachelor of Arts SUPSI in Visual communication.<br />
 Teaching: Leonardo Angelucci<br />
-Assistent: Desirée Veschetti
+Assistant: Desirée Veschetti
