@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Interactive Timeline</title>
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="description" content="CC – SUPSI 2022">
+  <meta name="keywords" content="Creative, Coding, SUPSI, 2022">
+  <meta name="web_author" content="Alessandro Plantera">
+  <meta name="copyright" content="Alessandro Plantera">
+  <link href="src/style.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.5.0/lib/p5.js"></script>
+  <style>
+  </style>
+</head>
+
+<body>
+  <div class="appheader">
+    <div>
+      <span>Visualization:</span> <a href="#">Classic</a> <span>|</span> <a href="#">Interactive</a>
+    </div>
+    <div>
+      <span>Data:</span> <span id="ElmCnt">-</span> Works
+    </div>
+    <div>
+      <a href="#">About<span> In Eterno</span></a>
+    </div>
+  </div>
+  <div class="appPanel">
+    <div class="timeline timeline-a">
+      <div class="title">Year<br><span style="color:#A7A7A7">Use the timeline as interval filter</span></div>
+      <div id="MyCanvas"></div>
+    </div>
+    <div class="timeline timeline-b">
+      <div class="title">Order<br><span style="color:#A7A7A7">The order you want to show the works</span></div>
+      <div id="MyCanvas">
+        <div class="buttons">
+          <div class="button-sort" data-sort="title">Title - A>Z</div>
+          <div class="button-sort" data-sort="year">Year - Ascending</div>
+          <div class="button-sort" data-sort="random">Random</div>
+          <!-- <div class="button-sort" data-sort="title>">-Title</div> -->
+          <!-- <div class="button-sort" data-sort="year>">+Year</div> -->
+        </div>
+      </div>
+    </div>
+    <div class="timeline timeline-c">
+      <div class="title">Subject<br><span style="color:#A7A7A7">Click to select one or more topic</span></div>
+      <div id="MyCanvasB">
+        <div class="rectangle" data-tag="Poetries">
+          <div class="rectInfo" data-tag="Poetries">
+            <p data-tag="Poetries">Poetries</p>
+          </div>
+        </div>
+        <div class="rectangle" data-tag="Drawings">
+          <div class="rectInfo" data-tag="Drawings">
+            <p data-tag="Drawings">Drawings</p>
+          </div>
+        </div>
+        <div class="rectangle" data-tag="Photos">
+          <div class="rectInfo" data-tag="Photos">
+            <p data-tag="Photos">Photos</p>
+          </div>
+        </div>
+        <div class="rectangle" data-tag="Songs">
+          <div class="rectInfo" data-tag="Songs">
+            <p data-tag="Songs">Songs</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section id="container">    
+    <!-- <div class="buttons">
+      <button class="button-filter" data-tag="*">All</button>
+      <button class="button-filter" data-tag="tag1">Tag 1</button>
+      <button class="button-filter" data-tag="tag2">Tag 2</button>
+      <button class="button-filter" data-tag="Mom">Mom</button>
+      <button class="button-filter" data-tag="polaroid">Polaroid</button>
+      <button class="button-filter" data-tag="purple">Purple</button>
+      <button class="button-filter" data-tag="red">Red</button>
+    </div>
+
+    <div class="buttons">
+      <button class="button-sort" data-sort="title<">Sort by title << /button>
+          <button class="button-sort" data-sort="title>">Sort by title ></button>
+          <button class="button-sort" data-sort="year>">Sort by year ></button>
+          <button class="button-sort" data-sort="year<">Sort by year << /button>
+    </div>
+
+    <div class="buttons">
+      <input type="text" id="search" placeholder="Search" autocomplete="off">
+    </div> -->
+    <ul id="list">
+    </ul>
+    <!-- <button id="shuffle">SHUFFLE</button>
+      <button id="next">NEXT</button>
+      <button id="prev">PREV</button> -->
+    </section>
+  <div class="footer">
+    <p class="info">In Eterno | Alessandro Plantera</p>
+  </div>
+</body>
+<script src="src/hammer.js"></script>
+<script src="src/timeline.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script src="src/app.js"></script>
+</html>
