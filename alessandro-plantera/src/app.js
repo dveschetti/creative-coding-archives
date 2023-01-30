@@ -325,7 +325,7 @@ if (imageName === 'disco_1') {
                 li.classList.remove('song-active');
                 li.innerHTML = li.innerHTML.replace(/\(\d+:\d+ min\)/g, "");
             });
-            let songName = `Scansioni/Canzoni/${e.target.getAttribute("filename")}`;
+            let songName = `Scansioni/Materiale/${e.target.getAttribute("filename")}`;
             if (currentAudio && activeLi === li) {
                 currentAudio.pause();
                 activeLi = null;
